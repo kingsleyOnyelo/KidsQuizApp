@@ -1,0 +1,54 @@
+#dash{
+    margin-left: 200px;
+    width: 400px;
+    height: 400px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    background: blue;
+    display: inline-block;
+    position: absolute;
+}
+
+
+#dean4{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    background: red;
+    left: 620px;
+    display: inline-block;
+
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 75px;
+}
+
+label{
+    margin-left: 10px;
+}
+
+#done{
+    background: green;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.src{
+    width: 200px;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.res{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    margin-left: 14px;
+}
