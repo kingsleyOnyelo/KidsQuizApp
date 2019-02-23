@@ -18,17 +18,13 @@ let imgRand = ["./img/2.gif", "./img/3.jpeg", "./img/6.gif"];
 
 
 function answers(){
-
-    
-
     if(quest1.value === ans1.toUpperCase() && quest2.value === ans2.toUpperCase() && quest3.value === ans3.toUpperCase()){
-        
-       
             result[0].innerHTML = "Good one!";
-            quest1.value === "";
-            quest2.value ==="";
-            quest3.value ==="";
+            quest1.value = "";
+            quest2.value = "";
+            quest3.value = "";
             imgShow[0].src = imgRand[1];
+            document.getElementById("done").value = "Restart"
 
     }else if(quest1.value === "" || quest2.value === "" || quest3.value === ""){
         result[0].innerHTML = "Please enter an answer to the questions";
@@ -38,9 +34,9 @@ function answers(){
     else{
         result[0].innerHTML = "Go and study more!";
         imgShow[0].src = imgRand[0];
-        quest1.value === "";
-            quest2.value ==="";
-            quest3.value ==="";
+        quest1.value = "";
+            quest2.value = "";
+            quest3.value = "";
     }
 }
 
